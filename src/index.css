@@ -1,17 +1,18 @@
 @import "tailwindcss";
 
-
 @theme {
-  
   --color-blue-900: rgba(11, 13, 23, 1);
-  --color-orange-100: hsl(25, 100%, 94%);
- --color-gray-400: hsl(220, 13%, 13%);
---color-gray-300: hsl(219, 9%, 45%);
---color-gray-200: hsl(220, 14%, 75%);
---color-gray-100: hsl(223, 64%, 98%);
---color-White: hsl(0, 0%, 100%);
---color-black-100: hsl(0, 0%, 0%)
+  --color-blue-300: rgba(208, 214, 249, 1);
+  --color-gray-400: hsl(220, 13%, 13%);
+  --color-gray-300: hsl(219, 9%, 45%);
+  --color-gray-200: hsl(220, 14%, 75%);
+  --color-gray-100: hsl(223, 64%, 98%);
+  --color-White: hsl(0, 0%, 100%);
+  --color-black-100: hsl(0, 0%, 0%);
 }
-body{
-   font-family: "Barlow Condensed", sans-serif;
+body {
+  font-family: "Barlow Condensed", sans-serif;
+}
+.bellefair {
+  font-family: 'Bellefair', serif;
 }

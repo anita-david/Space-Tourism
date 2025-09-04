@@ -1,9 +1,15 @@
 import hamburgerMenu from "../../assets/shared/icon-hamburger.svg";
-function HamburgerMenu() {
+import closeIcon from "../../assets/shared/icon-close.svg";
+
+function HamburgerMenu({ isOpen, setIsOpen }) {
   return (
-    <div>
-      <button className="block lg:hidden sm:hidden">
-        <img src={hamburgerMenu} alt="Hamburger Menu" className="w-[24px] h-[21px] "/>
+    <div className="lg:hidden">
+      <button onClick={() => setIsOpen(!isOpen)}>
+        <img
+          src={isOpen ? closeIcon : hamburgerMenu}
+          alt="Menu toggle"
+          className="w-[24px] h-[21px]"
+        />
       </button>
     </div>
   );
