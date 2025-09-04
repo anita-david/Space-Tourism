@@ -1,6 +1,5 @@
-// DestinationNav.jsx
 import { NavLink } from "react-router-dom";
-import { navLinks } from "./navLinks"; // adjust the path accordingly
+import { navLinks } from "./navLinks"; 
 
 function DestinationNav() {
   const baseClasses = "uppercase pb-2 text-white";
@@ -24,3 +23,4 @@ function DestinationNav() {
 }
 
 export default DestinationNav;
+

@@ -1,3 +1,5 @@
+import { NavLink } from "react-router-dom";
+
 function HomepageContent() {
   return (
     <div className="pt-[28px] flex flex-col items-center gap-[40px] px-6 sm:px-10 lg:flex-row lg:justify-between lg:items-center lg:px-20">
@@ -17,11 +19,13 @@ function HomepageContent() {
         </p>
       </div>
 
-      <div className="text-center lg:text-right">
-        <button className="bg-white text-[18px] sm:text-[32px] rounded-full size-[144px] sm:size-[272px] lg:size-[272px] uppercase bellefair">
-          Explore
-        </button>
-      </div>
+      <NavLink to='/destination'>
+				<div className="text-center lg:text-right">
+					<button className="bg-white text-[18px] sm:text-[32px] rounded-full size-[144px] sm:size-[272px] lg:size-[272px] uppercase bellefair">
+						Explore
+					</button>
+				</div>
+			</NavLink>
     </div>
   );
 }
