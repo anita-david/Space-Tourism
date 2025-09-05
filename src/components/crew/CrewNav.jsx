@@ -16,7 +16,7 @@ function CrewNav() {
           to={path}
           className={({ isActive }) =>
             `w-3 h-3 rounded-full transition-colors duration-300 ${
-              isActive ? "bg-white" : "bg-blue-300"
+              isActive ? "bg-white" : "bg-gray-300"
             }`
           }
         />

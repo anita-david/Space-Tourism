@@ -11,6 +11,10 @@ import Douglas from "./components/crew/Douglas";
 import Mark from "./components/crew/Mark";
 import Victor from "./components/crew/Victor";
 import Anousheh from "./components/crew/Anousheh";
+import LaunchVehicle from "./components/technology/LaunchVehicle";
+import SpacePort from "./components/technology/SpacePort";
+import SpaceVehicle from "./components/technology/SpaceCapsule";
+import SpaceCapsule from "./components/technology/SpaceCapsule";
 
 function App() {
   return (
@@ -30,8 +34,12 @@ function App() {
           <Route path="mark" element={<Mark />} />{" "}
           <Route path="victor" element={<Victor />} />
            <Route path='anousheh' element={<Anousheh/>}/>
+        </Route> <Route path="/technology" element={<Technology />}>
+         <Route index element={<LaunchVehicle />} />
+          <Route path="launchVehicle" element={<LaunchVehicle />} />
+          <Route path="spacePort" element={<SpacePort />} />
+          <Route path="spaceCapsule" element={<SpaceCapsule />} />
         </Route>
-        <Route path="/technology" element={<Technology />} />
       </Routes>
     </div>
   );
