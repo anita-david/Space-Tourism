@@ -1,4 +1,4 @@
-import CrewNav from "./CrewNav";
+import CrewNav from "./CrewNav.tsx";
 import anousheh from "../../assets/crew/image-anousheh-ansari.png";
 
 function Anousheh() {

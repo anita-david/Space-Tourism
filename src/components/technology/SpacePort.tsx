@@ -1,6 +1,6 @@
 import spacePortPotrait from "../../assets/technology/image-spaceport-portrait.jpg";
 import spacePortLandscape from "../../assets/technology/image-spaceport-landscape.jpg";
-import TechnologyNav from "./TechnologyNav";
+import TechnologyNav from "./TechnologyNav.tsx";
 
 function SpacePort() {
   return (

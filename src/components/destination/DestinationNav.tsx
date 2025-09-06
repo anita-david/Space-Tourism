@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import { navLinks } from "./navLinks"; 
+import { navLinks } from "./navLinks.ts"; 
 
 function DestinationNav() {
   const baseClasses = "uppercase pb-2 text-white";

@@ -1,6 +1,6 @@
 import launchVehiclePortrait from "../../assets/technology/image-launch-vehicle-portrait.jpg";
 import launchVehicleLandscape from "../../assets/technology/image-launch-vehicle-landscape.jpg";
-import TechnologyNav from "./TechnologyNav";
+import TechnologyNav from "./TechnologyNav.tsx";
 
 function LaunchVehicle() {
   return (

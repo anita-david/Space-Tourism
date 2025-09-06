@@ -8,9 +8,9 @@ function NavMenu({ direction = "row" }) {
     <div
       className={
         direction === "row"
-          ? // Desktop layout
+          ? 
             "hidden sm:flex lg:flex justify-between gap-[48px] px-[50px] bg-white/5 p-[40px] sm:text-[16px] lg:text-[18px]"
-          : // Mobile sidebar layout
+          : 
             "flex flex-col gap-6 text-[18px]"
       }
     >

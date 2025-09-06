@@ -1,6 +1,6 @@
 import spaceCapsulePotrait from "../../assets/technology/image-space-capsule-portrait.jpg";
 import spaceCapsuleLandscape from "../../assets/technology/image-space-capsule-landscape.jpg";
-import TechnologyNav from "./TechnologyNav";
+import TechnologyNav from "./TechnologyNav.tsx";
 
 function SpaceCapsule() {
   return (

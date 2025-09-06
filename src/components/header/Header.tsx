@@ -1,8 +1,8 @@
 import { useState } from "react";
 import closeIcon from "../../assets/shared/icon-close.svg"; // install lucide-react or replace with your own icon
-import HamburgerMenu from "./HamburgerMenu";
-import Logo from "./Logo";
-import NavMenu from "./NavMenu";
+import HamburgerMenu from "./HamburgerMenu.tsx";
+import Logo from "./Logo.tsx";
+import NavMenu from "./NavMenu.tsx";
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -23,7 +23,7 @@ function Header() {
             className="self-end text-white mb-8"
             onClick={() => setIsOpen(false)}
           >
-             <img src={closeIcon} alt="Close menu" className="w-6 h-6" />
+            <img src={closeIcon} alt="Close menu" className="w-6 h-6" />
           </button>
 
           <NavMenu direction="col" />
